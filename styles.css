@@ -1,0 +1,87 @@
+body {
+  font-weight: 400;
+  font-family: OpenSans;
+  color: white;
+}
+
+h1 {
+  font-weight: 700;
+  font-family: Poppins;
+  padding-bottom: 15px;
+}
+
+.logo {
+  padding: 50px 0;
+}
+
+.site {
+  background-position: center;
+  background-image: url(images/bg-desktop.svg);
+  background-size: auto;
+  background-color: hsl(257, 40%, 49%);
+  background-repeat: no-repeat;
+}
+
+.register {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 16px;
+  background-color: white;
+  color: hsl(257, 40%, 49%);
+}
+
+.img {
+  width: 80%;
+}
+
+.icons {
+  text-align: right;
+}
+
+.icon {
+  padding: 10px;
+}
+
+/* footer */
+.attribution {
+  padding-top: 20px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.col-lg-6 {
+  padding: 0;
+}
+
+/* media query */
+@media (max-width:992px) {
+  body {
+    text-align: center;
+  }
+
+  .icons {
+    text-align: center;
+  }
+
+  .logo {
+    text-align: left;
+    padding-left: 45px;
+  }
+
+  .col-lg-6 {
+    padding-bottom: 50px;
+  }
+
+  .site {
+    background-position: top;
+  }
+
+  .logo {
+    padding: 20px 0 20px 20px;
+  }
+}
